@@ -24,3 +24,14 @@ extract.log
 clean_out.txt
 auth_readers_result.txt
 plain_readers_result.txt
+
+# APK 附属签名块与本地工具链 / 构建解包产物（避免误提交）
+*.idsig
+*.apk.idsig
+apktool.jar
+build-tools/
+debug.keystore
+build/
+work/
+analysis_final/
+verify_v*/

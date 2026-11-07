@@ -1,0 +1,57 @@
+{
+  "metrics": {
+    "apk": "计算管家_v4.4.3_精简去广告_去授权_去更新_v6.apk",
+    "size": 7051508,
+    "sha256": "6213ea8c5c9a1abd7564169a37d1d219b75c0e2a6264674021348c3066e8c14d",
+    "md5": "56c53b827587bf87463aac2e04cacfe7",
+    "signature": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "verifies": true
+    },
+    "cert_dn": "CN=Android Debug, O=Android, C=US",
+    "cert_sha256": "58e1ebd4c221468a",
+    "entries": 1497,
+    "dex_size": 5198188,
+    "dex_sha256": "85b74540a0c626f8",
+    "dex_strings": 38508,
+    "dex_methods": 48366,
+    "dex_classes": 6253,
+    "changed_vs_baseline": [
+      "META-INF/ANDROIDD.RSA",
+      "META-INF/ANDROIDD.SF",
+      "META-INF/MANIFEST.MF",
+      "classes.dex"
+    ],
+    "added": [],
+    "removed": [],
+    "decompiled": "work/verify_v6_final",
+    "smali_files": 6253,
+    "forced_true": 44,
+    "eq_literals_left": 1,
+    "eq_if_nez_layout": 1,
+    "gate_if_eqz_left": 0,
+    "bool_gate_left": 0,
+    "load_library": 1,
+    "ideacalc_plain_urls": [
+      "http://ideacalc.cn/submit_suggestion_by_device.php?name=",
+      "http://www.ideacalc.cn/data/paras.xml",
+      "http://www.ideacalc.cn/data/video.xml"
+    ],
+    "prefbootstrap": true,
+    "main_onresume_bootstrap": true,
+    "migration_puts": 1,
+    "D_return_void": true,
+    "splash_onresume_bootstrap": true,
+    "update_null": true,
+    "azb_display_puts": 0,
+    "exported_components": [
+      "longbin.helloworld.wxapi.WXPayEntryActivity",
+      "longbin.helloworld.wxapi.WXEntryActivity",
+      "com.alipay.sdk.app.PayResultActivity",
+      "com.alipay.sdk.app.AlipayResultActivity"
+    ]
+  },
+  "fails": []
+}
