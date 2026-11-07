@@ -1,0 +1,26 @@
+# ===== 不上传：第三方版权代码 / 原始受保护素材 / 大体积日志 =====
+*.apk
+unpacked/
+*_decompiled.java
+az_handler_decompiled.java
+
+# 从 APK 提取的原始数据池（第三方内容）
+strings.txt
+dex_findings.json
+dex_out.txt
+report_data.json
+
+# 运行期错误日志（Androguard DEBUG 刷屏，数十 MB）
+dex_err.txt
+err.txt
+verify_out.txt
+verify_cmp_log.txt
+
+# 临时运行输出
+*_run.txt
+az_src.txt
+az_list.txt
+extract.log
+clean_out.txt
+auth_readers_result.txt
+plain_readers_result.txt

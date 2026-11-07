@@ -1,0 +1,105 @@
+======================================================================
+CLASS: Llongbin/helloworld/HelloWorldActivity$4;  METHOD: onResponse
+  [0003] v10, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
+  [0004] v10
+  [0005] v10, Lokhttp3/ResponseBody;->string()Ljava/lang/String;
+  [0006] v10
+  [0009] v3, Ljava/lang/StringBuilder;-><init>()V
+  [0011] v3, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  [0012] v3, v10, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  [0013] v3, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  [0014] v3
+  [0015] v2, v3, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+  [0017] v2, Ljava/lang/StringBuilder;-><init>()V
+  [0019] v2, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  [0020] v3, "89d43e35dd25de5d2ce9334f2624d6a61345893a"
+  [0021] v2, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  [0022] v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  [0023] v2
+  [0024] v2, Llongbin/helloworld/Common;->md(Ljava/lang/String;)Ljava/lang/String;
+  [0025] v2
+  [0027] v10, v3, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+  [0028] v10
+  [0031] v2, v3, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+  [0032] v2
+  [0033] v2, +055h
+  [0040] v10, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+  [0041] v5
+  [0042] v5, +008h
+  [0043] v4, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+  [0044] v5
+  [0045] v5, +040h
+  [0047] v5, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+  [0048] v5
+  [0049] v5, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+  [0050] v5
+  [0053] v5, v6, v7, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0055] v5, v6, v2, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+  [0058] v5, v2, v6, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0059] v5, v1, v3, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0060] v5, v0, v4, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0061] v5, v9, v10, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0064] v5, v2, v6, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0065] v5, Landroid/content/SharedPreferences$Editor;->commit()Z
+  [0066] v1, v3, Llongbin/helloworld/DbOperate;->addOrUpdateKey(Ljava/lang/String; Ljava/lang/String;)V
+  [0067] v0, v4, Llongbin/helloworld/DbOperate;->addOrUpdateKey(Ljava/lang/String; Ljava/lang/String;)V
+  [0068] v9, v10, Llongbin/helloworld/DbOperate;->addOrUpdateKey(Ljava/lang/String; Ljava/lang/String;)V
+  [0071] v9, Ljava/lang/Exception;->printStackTrace()V
+
+======================================================================
+CLASS: Llongbin/helloworld/wxapi/WXEntryActivity$2;  METHOD: handleMessage
+  [0004] v3, Llongbin/helloworld/wxapi/WXEntryActivity;->getResources()Landroid/content/res/Resources;
+  [0007] v4, Llongbin/helloworld/wxapi/WXEntryActivity;->access$000(Llongbin/helloworld/wxapi/WXEntryActivity;)I
+  [0008] v4
+  [0009] v3, v4, +0a2h
+  [0010] v11, Landroid/os/Message;->getData()Landroid/os/Bundle;
+  [0011] v3
+  [0012] v2, Llongbin/helloworld/MyBase;->decode3(Ljava/lang/String;)Ljava/lang/String;
+  [0013] v4
+  [0014] v3, v4, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+  [0015] v3
+  [0016] v11, Landroid/os/Message;->getData()Landroid/os/Bundle;
+  [0017] v11
+  [0019] v11, v4, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+  [0020] v11
+  [0022] v4, Ljava/lang/StringBuilder;-><init>()V
+  [0023] v4, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  [0024] v5, "89d43e35dd25de5d2ce9334f2624d6a61345893a"
+  [0025] v4, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  [0026] v4, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  [0027] v4
+  [0028] v4, Llongbin/helloworld/Common;->md(Ljava/lang/String;)Ljava/lang/String;
+  [0029] v4
+  [0031] v11, v5, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+  [0032] v11
+  [0035] v4, v5, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+  [0036] v4
+  [0037] v4, +068h
+  [0044] v11, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+  [0045] v7
+  [0046] v7, +059h
+  [0047] v6, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+  [0048] v7
+  [0049] v7, +053h
+  [0051] v7, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+  [0052] v7
+  [0053] v7, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+  [0054] v7
+  [0057] v7, v8, v9, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0059] v7, v8, v4, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+  [0062] v7, v4, v8, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0063] v7, v2, v5, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0064] v7, v1, v6, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0065] v7, v0, v11, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [0066] v7, Landroid/content/SharedPreferences$Editor;->commit()Z
+  [0067] v2, v5, Llongbin/helloworld/DbOperate;->addOrUpdateKey(Ljava/lang/String; Ljava/lang/String;)V
+  [0068] v1, v6, Llongbin/helloworld/DbOperate;->addOrUpdateKey(Ljava/lang/String; Ljava/lang/String;)V
+  [0069] v0, v11, Llongbin/helloworld/DbOperate;->addOrUpdateKey(Ljava/lang/String; Ljava/lang/String;)V
+  [0073] v11, v0, v1, Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+  [0074] v2, Llongbin/helloworld/MyBase;->decode3(Ljava/lang/String;)Ljava/lang/String;
+  [0075] v0
+  [0076] v11, v0, v3, Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+  [0078] v0, v11, Llongbin/helloworld/wxapi/WXEntryActivity;->startActivity(Landroid/content/Intent;)V
+  [0080] v11, Llongbin/helloworld/wxapi/WXEntryActivity;->finish()V
+  [0083] v11, Ljava/lang/Exception;->printStackTrace()V
+
